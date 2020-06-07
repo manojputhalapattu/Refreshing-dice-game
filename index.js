@@ -2,10 +2,10 @@
 var random=Math.floor(Math.random()*6)+1
 //var rand="dice"+random+".png"
 //var source="images\"+rand;
-var name="images/dice"+random+".png"
+var name="dice"+random+".png"
 document.querySelectorAll("img")[0].setAttribute("src",name);
 var random2=Math.floor(Math.random()*6)+1
-var d1="images/dice"+random2+".png"
+var d1="dice"+random2+".png"
 document.querySelectorAll("img")[1].setAttribute("src",d1);
 if(random>random2){
     document.querySelector("h2").innerHTML="Player 1 wins";
